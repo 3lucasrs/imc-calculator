@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color: #0a1931;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSide {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.leftSide_image {
+  height: 50%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.leftSide_image img {
+  width: 100%;
+  height: 90%;
+  /* border: 1px solid red; */
+}
+
+.leftSide_inputs {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /* border: 1px solid red; */
+}
+
+.leftSide_inputs h1 {
+  color: #16a34a;
+  text-align: center;
+}
+
+.leftSide_inputs input {
+  width: 85%;
+  margin: 12px 0px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #102446;
+  color: #16a34a;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.leftSide_inputs .invalid {
+  border: 1px solid #ff0000;
+}
+
+.leftSide_inputs input::placeholder {
+  color: #33513e;
+}
+
+.leftSide_inputs button {
+  margin-top: 15px;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #16a34a;
+  color: #0c204a;
+  font-size: 18px;
+}
+
+.leftSide_inputs button:hover {
+  background-color: #055a24;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+.rightSide_image {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.rightSide_image img {
+  width: 85%;
+  height: 90%;
+  /* border: 1px solid red; */
+}
+
+.rightSide_texts {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.rightSide_imc {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rightSide_var {
+  color: #fff;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+}

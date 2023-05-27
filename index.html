@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftSide">
+        <div class="leftSide_image">
+          <img src="assets/images/illustration.svg" alt="illustration" />
+        </div>
+        <div class="leftSide_inputs">
+          <h1>CALCULADORA IMC</h1>
+          <input
+            id="peso"
+            type="text"
+            placeholder="Digite seu peso (ex: 70.2)"
+          />
+
+          <input
+            id="altura"
+            type="text"
+            placeholder="Digite sua altura (ex: 1.72)"
+          />
+          <button id="calcular">Calcular</button>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="rightSide_image">
+          <img
+            class="rightSide_img"
+            src="assets/images/Default.png"
+            alt="imagem"
+          />
+        </div>
+        <div class="rightSide_texts">
+          <p class="rightSide_imc"></p>
+          <p class="rightSide_var"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
